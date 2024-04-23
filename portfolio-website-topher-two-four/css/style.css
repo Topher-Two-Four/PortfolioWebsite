@@ -77,8 +77,11 @@ textarea {
         --BODY-BGCOLOR: #333;
         --BORDER-COLOR: whitesmoke;
         --BUTTON-COLOR: #000;
-        --FONT-COLOR: orange;
+        --FONT-COLOR: rgb(169, 177, 230);
         --HEADER-COLOR: rgb(228, 191, 122);
+        --HEADER2-COLOR: rgb(228, 191, 122);
+        --HEADER3-COLOR: rgb(228, 191, 122);
+        --HEADER4-COLOR: rgb(228, 191, 122);
         --HERO-COLOR: #rgb(228, 191, 122);
         --HIGHLIGHT-COLOR: rgb(245, 245, 245);
         --LINK-ACTIVE: rgb(252, 200, 103);
@@ -120,6 +123,10 @@ textarea {
 
 .castlist h1{
     font-size: 24px;
+}
+
+.castlist h2 {
+    text-align: left;
 }
 
 .castlist li {
@@ -180,7 +187,7 @@ h4 {
 p {
     line-height: 1.4rem;
     padding: 1rem 0.8rem 0.2rem 1.6rem;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 a:any-link {
@@ -570,6 +577,16 @@ tr {
     font-weight: bold;
     text-shadow: #000;
     text-decoration: underline;
+    color: var(--HEADER-COLOR);
+}
+
+.flextext__content h2 {
+    font-size: 18px;
+    text-align: left;
+    padding-top: 1rem;
+    font-weight: bold;
+    text-shadow: #000;
+    color: var(--HEADER2-COLOR);
 }
 
 .fleximage__content img {

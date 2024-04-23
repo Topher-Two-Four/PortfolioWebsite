@@ -55,7 +55,7 @@ textarea {
     --ATTENDINGNAV-BGCOLOR: #8a387c;
     --PRESSNAV-BGCOLOR: #ed8b00;
 
-    --BORDER2-COLOR: #ba0c2f; /* UNM "Cherry" color */
+    --BORDER2-COLOR: #1b0cba;
 
     /* BORDERS */
     --BORDERS: 1px solid var(--BORDER-COLOR);
@@ -77,12 +77,12 @@ textarea {
         --BODY-BGCOLOR: #333;
         --BORDER-COLOR: whitesmoke;
         --BUTTON-COLOR: #000;
-        --FONT-COLOR: whitesmoke;
-        --HEADER-COLOR: whitesmoke;
-        --HERO-COLOR: #000000;
-        --HIGHLIGHT-COLOR: whitesmoke;
+        --FONT-COLOR: orange;
+        --HEADER-COLOR: rgb(228, 191, 122);
+        --HERO-COLOR: #rgb(228, 191, 122);
+        --HIGHLIGHT-COLOR: rgb(245, 245, 245);
         --LINK-ACTIVE: rgb(252, 200, 103);
-        --LINK-COLOR: whitesmoke;
+        --LINK-COLOR: rgb(255, 166, 0);
         --LINK-HOVER: orange;
         --NAV-BGCOLOR: rgb(20, 20, 20);
 
@@ -585,8 +585,7 @@ tr {
 }
 
 .fleximage__poster img {
-    width: 100%;
-    height: 400px;
+    width: 560px;
     border: thick ridge var(--BORDER2-COLOR);
     margin-bottom: 0.2rem;
 }

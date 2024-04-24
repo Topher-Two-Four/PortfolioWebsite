@@ -654,7 +654,8 @@ tr {
     grid-area: im;
     grid-template-columns: repeat(0, 1fr 2fr);
     gap: 0.5rem;
-    margin-left: 0.5rem;
+    margin-left: 1.5rem;
+    align-self: center;
 }
 
 .flexsocialmediabar__container h1 {

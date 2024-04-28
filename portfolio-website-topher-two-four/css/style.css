@@ -640,7 +640,7 @@ tr {
     grid-area: im;
     grid-template-columns: repeat(0, 1fr 2fr);
     gap: 1rem;
-    margin: 0.5rem;
+    margin: 0.5em;
 }
 
 .fleximagebar__container img {
@@ -654,7 +654,7 @@ tr {
     grid-area: im;
     grid-template-columns: repeat(0, 1fr 2fr);
     gap: 0.5rem;
-    margin-left: 1.5rem;
+    margin-left: 0.5rem;
     align-self: center;
 }
 

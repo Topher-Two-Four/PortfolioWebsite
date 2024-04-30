@@ -39,7 +39,7 @@ textarea {
     --BUTTON-COLOR: #FFF;
     --FONT-COLOR: #000;
     --HEADER-BGCOLOR:#0c0fba;
-    --HEADER-COLOR: #FFF;
+    --HEADER-COLOR: rgb(255, 162, 0);
     --HERO-BGCOLOR: #1b0cba;
     --HERO-COLOR: #ffffff;
     --HIGHLIGHT-COLOR: rgb(51, 178, 51);
@@ -78,7 +78,7 @@ textarea {
         --BORDER-COLOR: whitesmoke;
         --BUTTON-COLOR: #000;
         --FONT-COLOR: rgb(169, 177, 230);
-        --HEADER-COLOR: rgb(228, 191, 122);
+        --HEADER-COLOR: rgb(255, 162, 0);
         --HEADER2-COLOR: rgb(228, 191, 122);
         --HEADER3-COLOR: rgb(228, 191, 122);
         --HEADER4-COLOR: rgb(228, 191, 122);

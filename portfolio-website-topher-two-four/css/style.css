@@ -640,7 +640,7 @@ tr {
 
 .fleximagebar__container {
     display: grid;
-    grid-template-areas: "im im im im";
+    grid-template-areas: "im im im";
     column-gap: 0.5rem;
     grid-area: im;
     grid-template-columns: repeat(0, 1fr 2fr);
@@ -649,7 +649,7 @@ tr {
 }
 
 .fleximagebar__container img {
-    width: 30vh;
+    width: 26vh;
 }
 
 .flexsocialmediabar__container {

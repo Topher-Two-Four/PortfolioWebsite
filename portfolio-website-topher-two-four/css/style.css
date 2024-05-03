@@ -50,7 +50,7 @@ textarea {
 
     --HOMENAV-BGCOLOR: gray ;
     --FESTIVALNAV-BGCOLOR: #ffc600;
-    --PRODUCTIONSNAV-BGCOLOR: #007a86;
+    --PORTFOLIONAV-BGCOLOR: #dc8400;
     --GETTINGHERENAV-BGCOLOR: #c05131;
     --ATTENDINGNAV-BGCOLOR: #8a387c;
     --PRESSNAV-BGCOLOR: #ed8b00;
@@ -85,13 +85,13 @@ textarea {
         --HERO-COLOR: #rgb(228, 191, 122);
         --HIGHLIGHT-COLOR: rgb(245, 245, 245);
         --LINK-ACTIVE: rgb(252, 200, 103);
-        --LINK-COLOR: rgb(255, 166, 0);
+        --LINK-COLOR: rgb(0, 0, 191);
         --LINK-HOVER: orange;
         --NAV-BGCOLOR: rgb(20, 20, 20);
 
         --HOMENAV-BGCOLOR: gray ;
         --FESTIVALNAV-BGCOLOR: #ffc600;
-        --PRODUCTIONSNAV-BGCOLOR: #007a86;
+        --PORTFOLIONAV-BGCOLOR:  #dc8400;
         --GETTINGHERENAV-BGCOLOR: #c05131;
         --ATTENDINGNAV-BGCOLOR: #8a387c;
         --PRESSNAV-BGCOLOR: #ed8b00;
@@ -241,9 +241,7 @@ a:active {
 
 .header__nav {
     background-color: var(--NAV-BGCOLOR);
-    border-bottom: var(--BORDERS);
     font-weight: bold;
-    box-shadow: 0 6px 5px -5px var(--BORDER-COLOR);
 }
 
 .header__homenav {
@@ -253,39 +251,21 @@ a:active {
     box-shadow: 0 6px 5px -5px var(--BORDER-COLOR);
 }
 
-.header__festivalnav {
-    background-color: var(--FESTIVALNAV-BGCOLOR);
+.header__portfolionav {
+    background-color: var(--PORTFOLIONAV-BGCOLOR);
     border-bottom: var(--BORDERS);
     font-weight: bold;
     box-shadow: 0 6px 5px -5px var(--BORDER-COLOR);
+    padding-bottom: 0.2em;
 }
 
-.header__productionsnav {
-    background-color: var(--PRODUCTIONSNAV-BGCOLOR);
-    border-bottom: var(--BORDERS);
-    font-weight: bold;
-    box-shadow: 0 6px 5px -5px var(--BORDER-COLOR);
+.header__img {
+    height: 14vh;
 }
 
-.header__gettingherenav {
-    background-color: var(--GETTINGHERENAV-BGCOLOR);
-    border-bottom: var(--BORDERS);
-    font-weight: bold;
-    box-shadow: 0 6px 5px -5px var(--BORDER-COLOR);
-}
-
-.header__attendingnav {
-    background-color: var(--ATTENDINGNAV-BGCOLOR);
-    border-bottom: var(--BORDERS);
-    font-weight: bold;
-    box-shadow: 0 6px 5px -5px var(--BORDER-COLOR);
-}
-
-.header__pressnav {
-    background-color: var(--PRESSNAV-BGCOLOR);
-    border-bottom: var(--BORDERS);
-    font-weight: bold;
-    box-shadow: 0 6px 5px -5px var(--BORDER-COLOR);
+.header__figcaption {
+    font-size: 10px;
+    align-content: center;
 }
 
 .header__ul {
@@ -293,8 +273,10 @@ a:active {
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     gap: 1rem;
 }
+
 
 /* || TABS */
 

@@ -566,16 +566,17 @@ tr {
 }
 
 .flextext__content h1 {
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     font-weight: bold;
     text-shadow: #000;
     text-decoration: underline;
+    padding-left: 1rem;
     color: var(--HEADER-COLOR);
 }
 
 .flextext__content h2 {
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     font-weight: bold;
     text-shadow: #000;
@@ -593,12 +594,12 @@ tr {
 
 .flextext__content ul {
     margin: 1em;
-    font-size: 16px;
+    font-size: 14px;
     list-style-type: square;
 }
 
 .flextext__content p {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .fleximage__content img {
@@ -606,6 +607,11 @@ tr {
     height: auto;
     padding-top: 1rem;
     padding-right: 1rem;
+}
+
+.fleximagebar__container figcaption {
+    text-align: center;
+    padding-left: 2rem;
 }
 
 .fleximage__poster {
@@ -648,7 +654,9 @@ tr {
 }
 
 .fleximagebar__container img {
-    width: 26vh;
+    padding-left: 2.5rem;
+    padding-right: 1rem;
+    width: 40vh;
 }
 
 .flexsocialmediabar__container {

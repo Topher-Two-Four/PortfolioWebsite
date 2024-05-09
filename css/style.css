@@ -77,7 +77,7 @@ textarea {
         --BODY-BGCOLOR: #333;
         --BORDER-COLOR: whitesmoke;
         --BUTTON-COLOR: #000;
-        --FONT-COLOR: rgb(194, 31, 178);
+        --FONT-COLOR:  whitesmoke;
         --HEADER-COLOR: rgb(255, 162, 0);
         --HEADER2-COLOR: rgb(255, 255, 255);
         --HEADER3-COLOR: rgb(228, 191, 122);
@@ -337,7 +337,7 @@ a:active {
 .footer {
     bottom: 0;
     background-color: var(--HEADER-BGCOLOR);
-    color: var(--HEADER-COLOR);
+    color: var(--HEADER-COLOR2);
     padding: var(--PADDING-TB) var(--PADDING-SIDE);
     text-align: center;
 }
@@ -584,7 +584,7 @@ tr {
 }
 
 .flextext__content h3 {
-    font-size: 16px;
+    font-size: 22px;
     text-align: center;
     padding-top: 1rem;
     font-weight: bold;
@@ -594,12 +594,15 @@ tr {
 
 .flextext__content ul {
     margin: 1em;
-    font-size: 14px;
+    font-size: 18px;
     list-style-type: square;
+    line-height: 1rem;
+    padding-top: 0;
+    font-style: normal;
 }
 
 .flextext__content p {
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .fleximage__content img {
@@ -685,4 +688,9 @@ tr {
 .flexsocialmediabar__container img {
     width: 10vh;
     height: auto;
+}
+
+.bannerimage {
+    margin: 0;
+    padding: 0;
 }

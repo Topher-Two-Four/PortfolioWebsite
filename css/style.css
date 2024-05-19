@@ -39,7 +39,7 @@ textarea {
     --BUTTON-COLOR: #FFF;
     --FONT-COLOR: #000;
     --HEADER-BGCOLOR:#0c0fba;
-    --HEADER-COLOR: rgb(255, 162, 0);
+    --HEADER-COLOR: #FFFD00;
     --HERO-BGCOLOR: #1b0cba;
     --HERO-COLOR: #ffffff;
     --HIGHLIGHT-COLOR: rgb(51, 178, 51);
@@ -50,12 +50,12 @@ textarea {
 
     --HOMENAV-BGCOLOR: gray ;
     --FESTIVALNAV-BGCOLOR: #ffc600;
-    --PORTFOLIONAV-BGCOLOR: #dc8400;
+    --PORTFOLIONAV-BGCOLOR: #4E4080;
     --GETTINGHERENAV-BGCOLOR: #c05131;
     --ATTENDINGNAV-BGCOLOR: #8a387c;
     --PRESSNAV-BGCOLOR: #ed8b00;
 
-    --BORDER2-COLOR: #1b0cba;
+    --BORDER2-COLOR: #FFC100;
 
     /* BORDERS */
     --BORDERS: 1px solid var(--BORDER-COLOR);
@@ -72,26 +72,26 @@ textarea {
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --BGCOLOR-FADE: gray;
-        --BGCOLOR: #000;
-        --BODY-BGCOLOR: #333;
+        --BGCOLOR-FADE: #2400FF;
+        --BGCOLOR: #FFC100;
+        --BODY-BGCOLOR: #090D18;
         --BORDER-COLOR: whitesmoke;
         --BUTTON-COLOR: #000;
-        --FONT-COLOR:  whitesmoke;
-        --HEADER-COLOR: rgb(255, 162, 0);
-        --HEADER2-COLOR: rgb(255, 255, 255);
-        --HEADER3-COLOR: rgb(228, 191, 122);
-        --HEADER4-COLOR: rgb(228, 191, 122);
+        --FONT-COLOR: #E4E1F2;
+        --HEADER-COLOR: #FFFD00;
+        --HEADER2-COLOR: #2400FF;
+        --HEADER3-COLOR: #FFC001;
+        --HEADER4-COLOR: #494080;
         --HERO-COLOR: #rgb(228, 191, 122);
         --HIGHLIGHT-COLOR: rgb(245, 245, 245);
         --LINK-ACTIVE: rgb(252, 200, 103);
-        --LINK-COLOR: rgb(0, 0, 191);
+        --LINK-COLOR: #FFC100;
         --LINK-HOVER: orange;
         --NAV-BGCOLOR: rgb(20, 20, 20);
 
         --HOMENAV-BGCOLOR: gray ;
         --FESTIVALNAV-BGCOLOR: #ffc600;
-        --PORTFOLIONAV-BGCOLOR:  #dc8400;
+        --PORTFOLIONAV-BGCOLOR:  #4E4080;
         --GETTINGHERENAV-BGCOLOR: #c05131;
         --ATTENDINGNAV-BGCOLOR: #8a387c;
         --PRESSNAV-BGCOLOR: #ed8b00;
@@ -178,7 +178,7 @@ h1 {
 
 h2
 {
-    margin-bottom: .5em;
+    margin-bottom: 0.8em;
     font-size: 24px;
     color: var(--HEADER2-COLOR);
 }
@@ -186,7 +186,7 @@ h2
 h3 {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    margin-bottom: 1em;
+    margin: 0.5rem;
     color: var(--HEADER3-COLOR);
     font-size: 22px;
 }
@@ -196,7 +196,7 @@ h4 {
     font-size: 20px;
     font-weight: bolder;
     text-align: center;
-    padding-top: 0.5rem;
+    padding: 0.5rem
 }
 
 p {
@@ -702,7 +702,7 @@ tr {
 }
 
 .contactimage img {
-    width: 560px;
+    width: 340px;
     border: thick ridge var(--BORDER2-COLOR);
-    margin-bottom: 0.2rem;
+    margin: 2em auto;
 }

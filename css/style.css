@@ -694,3 +694,9 @@ tr {
     margin: 0;
     padding: 0;
 }
+
+.contactimage img {
+    width: 560px;
+    border: thick ridge var(--BORDER2-COLOR);
+    margin-bottom: 0.2rem;
+}

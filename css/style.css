@@ -578,17 +578,18 @@ tr {
 }
 
 .flextext__content h1 {
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     font-weight: bold;
     text-shadow: #000;
     text-decoration: underline;
     padding-left: 1rem;
     color: var(--HEADER-COLOR);
+    line-height: 1.5rem;
 }
 
 .flextext__content h2 {
-    font-size: 22px;
+    font-size: 18px;
     line-height: 1.5rem;
     text-align: center;
     font-weight: bold;
@@ -603,14 +604,14 @@ tr {
     text-shadow: #000;
     color: var(--HEADER3-COLOR);
     line-height: 1.5rem;
+    padding-top: 0.5rem;
 }
 
 .flextext__content ul {
-    margin: 1em;
     font-size: 16px;
     list-style-type: square;
-    line-height: 1.2rem;
-    padding-top: 0;
+    line-height: 1.5rem;
+    padding-top: 0.5rem;
     font-style: normal;
 }
 
@@ -664,7 +665,7 @@ tr {
     font-family: var(--FF-HEADINGS);
     text-align: center;
     font-weight: bolder;
-    font-size: 24px;
+    font-size: 18px;
     margin: 0.5em;
 }
 

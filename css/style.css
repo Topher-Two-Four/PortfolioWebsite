@@ -172,8 +172,7 @@ h4 {
 h1 {
     font-size: 28px;
     color: var(--HEADER-COLOR);
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 0.5rem;
 }
 
 h2
@@ -578,7 +577,7 @@ tr {
 }
 
 .flextext__content h1 {
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     font-weight: bold;
     text-shadow: #000;
@@ -657,7 +656,7 @@ tr {
     font-style: oblique;
     text-align: center;
     font-weight: lighter;
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 1rem;
 }
 
@@ -722,4 +721,8 @@ tr {
     width: 340px;
     border: thick ridge var(--BORDER2-COLOR);
     margin: 2em auto;
+}
+
+.messagebutton {
+    background-color: blue;
 }

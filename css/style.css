@@ -215,6 +215,7 @@ p {
 
 a:any-link {
     color: var(--LINK-COLOR);
+    line-height: 1.5rem;
 }
 
 hr {
@@ -674,6 +675,7 @@ tr {
     column-gap: 0.5rem;
     grid-area: im;
     grid-template-columns: repeat(0, 1fr 2fr);
+
     gap: 1rem;
     margin: 0.5em;
 }
@@ -682,6 +684,7 @@ tr {
     padding-left: 2.5rem;
     padding-right: 1rem;
     width: 40vh;
+    min-width: 20vw;
 }
 
 .flexsocialmediabar__container {

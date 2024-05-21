@@ -727,3 +727,40 @@ tr {
 .messagebutton {
     background-color: blue;
 }
+
+.accordion {
+    background-color: rgb(153, 236, 185);
+    color: #444;
+    cursor: pointer;
+    padding: 0.2rem;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 18px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: var(--HEADER3-COLOR);
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: var(--HEADER4-COLOR);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }

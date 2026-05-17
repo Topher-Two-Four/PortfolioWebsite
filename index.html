@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Christopher DeBonis">
-    <meta name="description" content="">
+    <meta name="description" content="Portfolio homepage for Christopher DeBonis, Albuquerque artist, painter, game designer, and developer.">
     <title>Christopher DeBonis</title>
     <link rel="icon" href="image/TopherProfilePaintingFavicon.jpg" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
@@ -15,93 +15,76 @@
 <body>
     <header class="header">
         <h1 class="header__h1">Christopher DeBonis</h1>
-        <nav class="header__nav">
+        <nav class="header__nav" aria-label="Primary navigation">
             <ul class="header__ul">
-                <li>
-                    <a class="tab-link" href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="aboutme.html">About Me</a>                
-                </li>
-                <li>
-                    <a href="digital.html">Digital Portfolio</a>
-                </li>
-                <li>
-                    <a href="analog.html">Analog Portfolio</a>                
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>                
-                </li>
+                <li><a href="index.html" aria-current="page">Home</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="digital.html">Digital Portfolio</a></li>
+                <li><a href="analog.html">Analog Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <div class="hero nowrap">
-        <h2 class="hero__h2">Ants and Geese!</h2>
+    <section class="hero nowrap" aria-labelledby="hero-title">
+        <h2 id="hero-title" class="hero__h2">Ants and Geese!</h2>
         <figure>
             <img src="image/AntsGeeseAndFlyingCrayons.jpg" alt="Ants, Geese, and Flying Crayons" title="Ants, Geese, and Flying Crayons" width="800">
-            <figcaption class="offscreen">
-                Ants and Geese Cover Image
-            </figcaption>
+            <figcaption class="offscreen">Ants and Geese cover image</figcaption>
         </figure>
-    </div>
-    <main>
-                <p> 
-                        <h3> <i>I'm here to paint and make video games, and I'm all out of paint...</i></h3>
-                                    <h4>
-                                        Hi, my name is Topher!
-                                    </h4>
-                                    <h4>
-                                        I'm an artist, born and raised in Albuquerque, NM.
-                                    </h4>
-                                    <h4>
-                                        I'm a game designer and developer, mainly using Unity and C#.
-                                    </h4>
-                                    <h4>
-                                        I'm a painter that speaks through figurative and organic abstraction.
-                                    </h4>
-                                    <h4>
-                                        I explore ideas by the methods and motif's set forth through experimental film and new media.
-                                    </h4>
-                                    <h4>
-                                        I engage in dialogue through artwork, to achieve a greater understanding of humanity.
-                                    </h4>
-                                    <h4>
-                                        I work to connect the analog, post-analog, and digital worlds.
-                                    </h4>
-                                    <h4>
-                                        I'm Topher :)
-                                    </h4>                   
-                </p>
-            </div>
-        </div>
-        <hr>   
-        <h4>
-            Ask Me About Ants and Geese:&nbsp;<a target="_blank" href="mailto:tophertwofour@gmail.com">tophertwofour@gmail.com</a>
-        </h4>
-        <hr>
-                <p>
-                    <div class="flexsocialmediabar__container">
-                        <h1>Find Me on Social Media:</h1>
-                        <a target="_blank" href="https://www.linkedin.com/in/christopherdebonis24/"><img src="/image/LinkedInIcon.png" alt="LinkedIn Logo"></a>
-                        <a target="_blank" href="https://github.com/Topher-Two-Four"><img src="/image/GitHubLogo.png" alt="GitHub Logo"></a>
-                        <a target="_blank" href="https://www.instagram.com/tophertwofour/"><img src="/image/InstagramIcon.png" alt="Instagram Logo"></a>
-                        <a target="_blank" href="https://www.twitch.tv/tophertwofour"><img src="/image/TwitchLogo.png" alt="Twitch Logo"></a>
-                    </div>
-                </p>   
-    </main>
-    <hr>
-    <p class="container__returnlink">
-        <a href="#">Return to Top</a>
-    </p>
+    </section>
 
-</main>
-<footer class="footer">
-    <p class="footer__p">
-        <span class="nowrap">Copyright &copy; <time id="year">2024</time></span>
-        <span class="nowrap"> by Christopher DeBonis</span>
-    </p>
-</footer>
+    <main class="main">
+        <section class="intro" aria-labelledby="intro-title">
+            <h2 id="intro-title"><em>I'm here to paint and make video games, and I'm all out of paint...</em></h2>
+            <p>Hi, my name is Topher!</p>
+            <p>I'm an artist, born and raised in Albuquerque, NM.</p>
+            <p>I'm a game designer and developer, mainly using Unity and C#.</p>
+            <p>I'm a painter that speaks through figurative and organic abstraction.</p>
+            <p>I explore ideas by the methods and motifs set forth through experimental film and new media.</p>
+            <p>I engage in dialogue through artwork, to achieve a greater understanding of humanity.</p>
+            <p>I work to connect the analog, post-analog, and digital worlds.</p>
+            <p>I'm Topher :)</p>
+        </section>
+
+        <hr>
+
+        <section class="contact-callout" aria-label="Email Christopher DeBonis">
+            <h2>Ask Me About Ants and Geese:</h2>
+            <p class="center"><a href="mailto:tophertwofour@gmail.com">tophertwofour@gmail.com</a></p>
+        </section>
+
+        <hr>
+
+        <section class="social-section" aria-labelledby="social-title">
+            <h2 id="social-title">Find Me on Social Media</h2>
+            <div class="flexsocialmediabar__container">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/christopherdebonis24/">
+                    <img src="image/LinkedInIcon.png" alt="LinkedIn">
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/Topher-Two-Four">
+                    <img src="image/GitHubLogo.png" alt="GitHub">
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/tophertwofour/">
+                    <img src="image/InstagramIcon.png" alt="Instagram">
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.twitch.tv/tophertwofour">
+                    <img src="image/TwitchLogo.png" alt="Twitch">
+                </a>
+            </div>
+        </section>
+
+        <hr>
+
+        <p class="container__returnlink"><a href="#">Return to Top</a></p>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__p">
+            <span class="nowrap">Copyright &copy; <span class="copyright-years">2024-2026</span></span>
+            <span class="nowrap"> by Christopher DeBonis</span>
+        </p>
+    </footer>
 </body>
 
 </html>

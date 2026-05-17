@@ -5,229 +5,168 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Christopher DeBonis">
-    <meta name="description" content="">
-    <title>Digital Artwork</title>
+    <meta name="description" content="Digital portfolio for Christopher DeBonis, including game development, game design, programming, and website projects.">
+    <title>Digital Portfolio - Christopher DeBonis</title>
     <link rel="icon" href="image/TopherProfilePaintingFavicon.jpg" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
-    <script src="script.js" defer></script>
+    <script src="js/main.js" defer></script>
 </head>
 
 <body>
     <header class="header">
         <h1 class="header__h1">Christopher DeBonis</h1>
-        <nav class="header__nav">
+        <nav class="header__nav" aria-label="Primary navigation">
             <ul class="header__ul">
-                <li>
-                    <a class="tab-link" href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="aboutme.html">About Me</a>                
-                </li>
-                <li>
-                    <a href="digital.html">Digital Portfolio</a>
-                </li>
-                <li>
-                    <a href="analog.html">Analog Portfolio</a>                
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>                
-                </li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="digital.html" aria-current="page">Digital Portfolio</a></li>
+                <li><a href="analog.html">Analog Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
-            <nav class="header__portfolionav">
-                <ul class="header__ul">
-                    <li>
-                        <a href="#">Potion Shop: Gone Astray (PC Game)</a>            
-                    </li>
-                    <li>
-                        <a href="#DeadlyDark">Deadly Dark (PC Game)</a>
-                    </li>
-                    <li>
-                        <a href="#3DDialectics">3D Dialectics LLC</a>        
-                    </li>
-                    <li>
-                        <a href="#BlackRabbitFilmFestival">UNM Film Festival Website</a>          
-                    </li>
-                </ul>
+        </nav>
+        <nav class="header__portfolionav" aria-label="Portfolio section navigation">
+            <ul class="header__ul header__ul--subnav">
+                <li><a href="#potion-shop">Potion Shop: Gone Astray</a></li>
+                <li><a href="#deadly-dark">Deadly Dark</a></li>
+                <li><a href="#three-d-dialectics">3D Dialectics LLC</a></li>
+                <li><a href="#black-rabbit-film-festival">UNM Film Festival Website</a></li>
+            </ul>
         </nav>
     </header>
-    <main>
-        <div class="container">
+
+    <main class="main portfolio-main">
+
+        <section id="potion-shop" class="container portfolio-project " aria-labelledby="potion-shop-title">
             <div class="flextext__content">
-                <h1>
-                    "Potion Shop: Gone Astray" <em>&lpar;PC Game, 2024&rpar;</em>
-                </h1>
-                <h2><u>Role</u>: Unity Developer, Programmer, Game Designer</h2>
-                <p>
-                    &emsp;Potion Shop: Gone Astray is a 2D/3D, dark-fantasy, PC game, where the player character is the owner of a magical potion shop.The player character must take turns running the potion shop through a 2D interface and collecting ingredients from a maze inhabited by monsters. 
-                </p>
-                <p>
-                    &emsp;The player character must decide whether to make morally correct choices when selling their potions. For instance, a Death potion is going to bring some bad karma with it. The player character must make enough money at the end of the week, to pay the Landlord, or else...
-                </p>
-                <h3><u>Contributions Included:</u></h3>
+                <h1 id="potion-shop-title">“Potion Shop: Gone Astray” <em>(PC Game, 2024)</em></h1>
+                <h2><span class="underline">Role</span>: Unity Developer, Programmer, Game Designer</h2>
+                <p>Potion Shop: Gone Astray is a 2D/3D, dark-fantasy PC game where the player character is the owner of a magical potion shop. The player character must take turns running the potion shop through a 2D interface and collecting ingredients from a maze inhabited by monsters.</p>
+                <p>The player character must decide whether to make morally correct choices when selling their potions. For instance, a Death potion is going to bring some bad karma with it. The player character must make enough money at the end of the week to pay the Landlord, or else...</p>
+                <h3><span class="underline">Contributions Included:</span></h3>
                 <ul>
-                    <li>Sole programmer and Unity developer for this project</li>
-                    <li>Designed game mechanics, including:</li>
-                    <ul>
-                        <li>Potion Brewing System</li>
-                        <li>Order System</li>
-                        <li>Book UI system</li>
-                        <li>Spatial, Grid-Based Inventory System</li>
-                        <li>Morality System</li>
-                        <li>Time Progression</li>
-                        <li>Tutorial and Instruction Systems</li>
-                    </ul>
+                        <li>Sole programmer and Unity developer for this project</li>
+                        <li>Designed game mechanics, including:
+                            <ul>
+                            <li>Potion Brewing System</li>
+                            <li>Order System</li>
+                            <li>Book UI System</li>
+                            <li>Spatial, Grid-Based Inventory System</li>
+                            <li>Morality System</li>
+                            <li>Time Progression</li>
+                            <li>Tutorial and Instruction Systems</li>
+                            </ul>
+                        </li>
                 </ul>
-                    <!-- <button class="accordion">A Doctor's Tragedy</button>
-                    <div class="panel">
-                        <div class="container">
-                            <div class="flextext__content">
-                                <h2>A Doctor's Tragedy</h2>
-                                <h3>(PG-13)</h3>
-                                <p>
-                                    In the midst of a drug epidemic, the tragedy of death haunts a Doctor who vows to bring back his sister, though that very epidemic seeks to destroy the Doctor's cure.
-                                </p>
-                                <h4>Director: Frederico Austin</h4>
-                                <a target="_blank" href="https://youtu.be/hJhVoD0no7M">
-                                    <h4>Watch the Trailer</h4>
-                                </a>
-                            </div>
-                                <div class="fleximage__poster">
-                                    <img src="image/productionflyers/Doctor_s_Tragedy - Frederico Austin.png" alt="A Doctors Tragedy - Frederico Austin">
-                                </div>
-                        </div>
-                        
-                    </div>
-                    <button class="accordion">Potion Brewing System</button>
-                    <div class="panel">
-                        <div class="container">
-                            <div class="flextext__content">
-                                <h2>Potion Brewing System</h2>
-                                <h3>The system through which potions are brewed.</h3>
-                                <p>
-                                    In the midst of a drug epidemic, the tragedy of death haunts a Doctor who vows to bring back his sister, though that very epidemic seeks to destroy the Doctor's cure.
-                                </p>
-    
-                            </div>
-                                <div class="fleximage__poster">
-                                    <img src="image/productionflyers/Doctor_s_Tragedy - Frederico Austin.png" alt="A Doctors Tragedy - Frederico Austin">
-                                </div>
-                        </div>
-                        
-                    </div> -->
-                <div id="DeadlyDark"></div>
             </div>
+
             <div class="fleximage__poster">
-                <a target="_blank" href="https://ajsaenz.itch.io/potion-shop-gone-astray">
-                <img src="image/PotionShopGoneAstrayPoster.png" alt="Potion Shop Gone Astray Theatrical Poster">
-                <figcaption>Potion Shop: Gone Astray (PC Game)</figcaption>
-                </a>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/nPnOhLokvhE?si=J8YjrEA4wvg_UWbW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <a target="_blank" href="https://youtu.be/nPnOhLokvhE?si=96Mh1piXTkwqVKNx">
-                <figcaption>"Potion Shop: Gone Astray" Trailer</figcaption>
-                </a>
-                <h2><u>Production Assets:</u></h2>
-                <h5>
-                    <a href="documents/2023-2024UNMGamingCapstoneSoftwareProductionSchedule.xlsx.pdf" target="_blank">"Potion Shop: Gone Astray" Software Production Schedule</a>
-                </h5>
-                <h5>
-                    <a href="documents/PotionShopGoneAstray_UnityDocumentation_01.16.24.pdf" target="_blank">"Potion Shop: Gone Astray" Unity Project Designer Documentation</a>
-                </h5>
+                <figure>
+                    <a target="_blank" rel="noopener noreferrer" href="https://ajsaenz.itch.io/potion-shop-gone-astray">
+                        <img src="image/PotionShopGoneAstrayPoster.png" alt="Potion Shop: Gone Astray theatrical poster">
+                    </a>
+                    <figcaption>Potion Shop: Gone Astray (PC Game)</figcaption>
+                </figure>
+
+                <iframe src="https://www.youtube.com/embed/nPnOhLokvhE?si=J8YjrEA4wvg_UWbW" title="Potion Shop: Gone Astray trailer" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p class="caption-link"><a target="_blank" rel="noopener noreferrer" href="https://youtu.be/nPnOhLokvhE?si=96Mh1piXTkwqVKNx">“Potion Shop: Gone Astray” Trailer</a></p>
+
+                <h2><span class="underline">Production Assets:</span></h2>
+                <p><a href="documents/2023-2024UNMGamingCapstoneSoftwareProductionSchedule.xlsx.pdf" target="_blank" rel="noopener noreferrer">“Potion Shop: Gone Astray” Software Production Schedule</a></p>
+                <p><a href="documents/PotionShopGoneAstray_UnityDocumentation_01.16.24.pdf" target="_blank" rel="noopener noreferrer">“Potion Shop: Gone Astray” Unity Project Designer Documentation</a></p>
             </div>
-        </div>
+        </section>
+
         <hr>
-        <div class="container">
+
+        <section id="deadly-dark" class="container portfolio-project " aria-labelledby="deadly-dark-title">
             <div class="flextext__content">
-                <h1>"Deadly Dark" <em>&lpar;PC Game, 2023&rpar;</em></h1>
-                <h2><u>Role</u>: Game Designer and Artist</h2>
-                <p>
-                    &emsp;Deadly Dark  is a first-person horror game for PC, that I helped produce as part of my Advanced Game Development course at the University of New Mexico. I worked as a game designer, as part of a four-person team, that created this game for our final project.
-                </p>
-                <h3><u>Contributions Included:</u></h3>
+                <h1 id="deadly-dark-title">“Deadly Dark” <em>(PC Game, 2023)</em></h1>
+                <h2><span class="underline">Role</span>: Game Designer and Artist</h2>
+                <p>Deadly Dark is a first-person horror game for PC that I helped produce as part of my Advanced Game Development course at the University of New Mexico. I worked as a game designer as part of a four-person team that created this game for our final project.</p>
+                <h3><span class="underline">Contributions Included:</span></h3>
                 <ul>
-                    <li>Drafted game design document.</li>
-                    <li>Initial design and concept of main game level, which is an abstraction of a modern art museum.</li>
-                    <li>Lead development of story and narrative. </li>
-                    <li>Contributed to design of game mechanics and core game loop.</li>
-                    <li>Created 20 video art works and virtual installations for virtual museum level. </li>
-                    <li>Contributed 5 analog drawings.</li>
-                    <li>Created animations for "the Entity" (the enemy in-game) using Maya 2024, and helped implement them in Unity</li>
-                    <li>Created game trailer.</li>
-                    <li>Cinematic screenshot collection for itch.io page. </li>
-                    <li>Idea for FOV adjustment setting, to enhance player experience.</li>
+                        <li>Drafted game design document.</li>
+                        <li>Initial design and concept of main game level, which is an abstraction of a modern art museum.</li>
+                        <li>Lead development of story and narrative.</li>
+                        <li>Contributed to design of game mechanics and core game loop.</li>
+                        <li>Created 20 video art works and virtual installations for virtual museum level.</li>
+                        <li>Contributed 5 analog drawings.</li>
+                        <li>Created animations for “the Entity” (the enemy in-game) using Maya 2024, and helped implement them in Unity.</li>
+                        <li>Created game trailer.</li>
+                        <li>Cinematic screenshot collection for itch.io page.</li>
+                        <li>Idea for FOV adjustment setting, to enhance player experience.</li>
                 </ul>
-                <div id="3DDialectics" ></div>
             </div>
+
             <div class="fleximage__poster">
-                <a target="_blank" href="https://lkl1034.itch.io/deadly-dark">
-                <img src="image/DeadlyDarkCoverImage.png" alt="Deadly Dark Cover Image">
-                <figcaption>Deadly Dark (PC Game)</figcaption>
-                </a>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/WfX9Wvn_B0c?si=ajqUCE9xNjhYhzUo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                
-                <a target="_blank" href="https://youtu.be/WfX9Wvn_B0c?si=kg1_Gapkk-nkIH30">
-                <figcaption>"Deadly Dark" Trailer</figcaption>
-                </a>
-                <h2><u>Production Assets:</u></h2>
-                <h5>
-                    <a href="documents/DeadlyDark_GameDesignDocument.pdf" target="_blank">"Deadly Dark" Game Design Doc</a>
-                </h5>
-                <h5>
-                    <a href="documents/DeadlyDarkTrailer_Screenplay.pdf" target="_blank">"Deadly Dark" Trailer - Screenplay</a>
-                </h5>
-                <h5>
-                    <a href="documents/DeadlyDarkTrailer_Storyboards.pdf" target="_blank">"Deadly Dark" Trailer - Storyboards</a>
-                </h5>
-                <h5>
-                    <a href="documents/DeadlyDarkTrailer_ShotList.pdf" target="_blank">"Deadly Dark" Trailer - Shot List</a>
-                </h5>
-                <h5>
-                    <a href="documents/DeadlyDark_AudioList.pdf" target="_blank">"Deadly Dark" Trailer - Audio List</a>
-                </h5>
+                <figure>
+                    <a target="_blank" rel="noopener noreferrer" href="https://lkl1034.itch.io/deadly-dark">
+                        <img src="image/DeadlyDarkCoverImage.png" alt="Deadly Dark cover image">
+                    </a>
+                    <figcaption>Deadly Dark (PC Game)</figcaption>
+                </figure>
+
+                <iframe src="https://www.youtube.com/embed/WfX9Wvn_B0c?si=ajqUCE9xNjhYhzUo" title="Deadly Dark trailer" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p class="caption-link"><a target="_blank" rel="noopener noreferrer" href="https://youtu.be/WfX9Wvn_B0c?si=kg1_Gapkk-nkIH30">“Deadly Dark” Trailer</a></p>
+
+                <h2><span class="underline">Production Assets:</span></h2>
+                <p><a href="documents/DeadlyDark_GameDesignDocument.pdf" target="_blank" rel="noopener noreferrer">“Deadly Dark” Game Design Doc</a></p>
+                <p><a href="documents/DeadlyDarkTrailer_Screenplay.pdf" target="_blank" rel="noopener noreferrer">“Deadly Dark” Trailer - Screenplay</a></p>
+                <p><a href="documents/DeadlyDarkTrailer_Storyboards.pdf" target="_blank" rel="noopener noreferrer">“Deadly Dark” Trailer - Storyboards</a></p>
+                <p><a href="documents/DeadlyDarkTrailer_ShotList.pdf" target="_blank" rel="noopener noreferrer">“Deadly Dark” Trailer - Shot List</a></p>
+                <p><a href="documents/DeadlyDark_AudioList.pdf" target="_blank" rel="noopener noreferrer">“Deadly Dark” Trailer - Audio List</a></p>
             </div>
-        </div>
+        </section>
+
         <hr>
-        <div class="container">
+
+        <section id="three-d-dialectics" class="container portfolio-project " aria-labelledby="three-d-dialectics-title">
             <div class="flextext__content">
-                <h1>3D Dialectics LLC (2023-2024)</h1>
-                <h2><u>Role</u>: Owner/Founder</h2>
-                <p>
-                    &emsp;3D Dialectics LLC is an analog and digital art studio in Albuquerque, NM. We engage in conversation with many forms of contemporary art, to find a synthesis of human meaning hidden between. The studio and its practices are in dialogue with the world around us, from politics to pop culture, because art is an expression of humanity.   
-                </p>
+                <h1 id="three-d-dialectics-title">3D Dialectics LLC (2023-2024)</h1>
+                <h2><span class="underline">Role</span>: Owner/Founder</h2>
+                <p>3D Dialectics LLC is an analog and digital art studio in Albuquerque, NM. We engage in conversation with many forms of contemporary art to find a synthesis of human meaning hidden between. The studio and its practices are in dialogue with the world around us, from politics to pop culture, because art is an expression of humanity.</p>
             </div>
+
             <div class="fleximage__poster">
-                <a target="_blank" href="http://www.3ddialectics.com">
-                <img src="image/3DDialecticsLogo_3DD-2024-08-14.png" alt="3D Dialectics Logo">
-                <figcaption>3D Dialectics LLC</figcaption>
-                </a>
+                <figure>
+                    <a target="_blank" rel="noopener noreferrer" href="http://www.3ddialectics.com">
+                        <img src="image/3DDialecticsLogo_3DD-2024-08-14.png" alt="3D Dialectics logo">
+                    </a>
+                    <figcaption>3D Dialectics LLC</figcaption>
+                </figure>
             </div>
-            <div id="BlackRabbitFilmFestival"></div>
-        </div>
+        </section>
+
         <hr>
-<div class="container">
-    <div class="flextext__content">
-        <h1>Black Rabbit Film Festival Website (2024)</h1>
-        <h2><u>Role</u>: Website Designer and Developer</h2>
-        <p>
-            &emsp;The website for the Black Rabbit film festival was built using HTML and CSS, and is designed using best practices derived from other film festival websites. The website is used as a portfolio for all groups who submitted their projects, where the students are able to use it to demonstrate their work to potential producers and employers.          
-        </p>
-    </div>
-    <div class="fleximage__poster">
-        <a target="_blank" href="https://topher-two-four.github.io/unm-2024-film-festival-website/">
-        <img src="image/blackrabbitfilmfestivalposter.png" alt="2024 Black Rabbit Film Festival Poster">
-        <figcaption>Black Rabbit Film Festival</figcaption>
-        </a>
-    </div>
-</div>
+
+        <section id="black-rabbit-film-festival" class="container portfolio-project " aria-labelledby="black-rabbit-film-festival-title">
+            <div class="flextext__content">
+                <h1 id="black-rabbit-film-festival-title">Black Rabbit Film Festival Website (2024)</h1>
+                <h2><span class="underline">Role</span>: Website Designer and Developer</h2>
+                <p>The website for the Black Rabbit film festival was built using HTML and CSS, and is designed using best practices derived from other film festival websites. The website is used as a portfolio for all groups who submitted their projects, where the students are able to use it to demonstrate their work to potential producers and employers.</p>
+            </div>
+
+            <div class="fleximage__poster">
+                <figure>
+                    <a target="_blank" rel="noopener noreferrer" href="https://topher-two-four.github.io/unm-2024-film-festival-website/">
+                        <img src="image/blackrabbitfilmfestivalposter.png" alt="2024 Black Rabbit Film Festival poster">
+                    </a>
+                    <figcaption>Black Rabbit Film Festival</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <hr>
+
+        <p class="container__returnlink"><a href="#">Return to Top</a></p>
     </main>
-    <hr>
-    <p class="container__returnlink">
-        <a href="#">Return to Top</a>
-    </p>
-<footer class="footer">
-    <p class="footer__p">
-        <span class="nowrap">Copyright &copy; <time id="year">2024</time></span>
-        <span class="nowrap"> by Christopher DeBonis</span>
-    </p>
-</footer>
+
+    <footer class="footer">
+        <p class="footer__p">
+            <span class="nowrap">Copyright &copy; <span class="copyright-years">2024-2026</span></span>
+            <span class="nowrap"> by Christopher DeBonis</span>
+        </p>
+    </footer>
 </body>
 
 </html>
